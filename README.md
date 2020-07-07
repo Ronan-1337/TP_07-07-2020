@@ -2,4 +2,4 @@
  
 Ronan fait la classe Grade
 
-Aharone fait la clas TeachingUnitResult
+Aharone fait la classe TeachingUnitResult

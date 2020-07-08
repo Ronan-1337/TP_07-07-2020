@@ -5,7 +5,9 @@ public class Grade {
 	private final double value;
 	private final boolean isAbsent;
 	
-	public Grade(double value, boolean isAbsent) {
+	public Grade(double value, boolean isAbsent) throws IllegalArgumentException{
+		if(value < 0 || value > 20)
+			throw new IllegalArgumentException("");
 		this.value = value;
 		this.isAbsent = isAbsent;
 	}

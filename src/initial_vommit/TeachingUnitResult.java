@@ -12,7 +12,7 @@ public class TeachingUnitResult {
 	}
 
 	public Grade getGrade() {
-		
+		return grade;
 	}
 	
 	public String toString() {
